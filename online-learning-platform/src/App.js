@@ -31,8 +31,8 @@ function App() {
       description: "Complete modern JavaScript mastery.",
       lessons: [
         { title: "JS Fundamentals", videoId: "W6NZfCO5SIk" },
-        { title: "Functions & Scope", videoId: "PoRJizFvM7s" },
-        { title: "Objects & Arrays", videoId: "vEROU2XtPR8" },
+        { title: "Functions & Scope", videoId: "j1laALb8OVM" },
+        { title: "Objects & Arrays", videoId: "gl0cpq4RJhU" },
         { title: "Async JavaScript", videoId: "PoRJizFvM7s" },
         { title: "ES6 Features", videoId: "NCwa_xi0Uuc" }
       ]
