@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is an online learning paltform that provides video tutorial for students who want to learn about the fundamentals of JS and React.js framework.
 
-## Available Scripts
+To run the project locally: - Clone the repository - Open a terminal in the project folder.
+-Run:
+-npm install
+-npm start
 
-In the project directory, you can run:
+The purpose of the website is to help students learn the concepts very quickly and enable them to produce output within a short period of time.
 
-### `npm start`
+[Software Demo Video](http://youtube.link.goes.here)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Web Pages
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Home Page
 
-### `npm test`
+    - Displays available courses dynamically.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    - Users can select a course to begin learning.
 
-### `npm run build`
+    - Course list is rendered from a JavaScript data structure.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Course Details Page (Dynamically Generated)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    - Displays selected course lessons.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    - Loads YouTube videos dynamically based on selected lesson.
 
-### `npm run eject`
+    - Tracks real-time watch progress.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    - “Mark Lesson Complete” button becomes active only after 100% watch time.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    - Navigation arrows dynamically change lessons and videos.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Dashboard Page
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    - Displays enrolled courses.
 
-## Learn More
+    - Shows calculated completion percentage.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    - Progress updates dynamically based on completed lessons.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    - Completion status determines certification eligibility.
 
-### Code Splitting
+## Certificate Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    - Displays certificates awarded to the student.
 
-### Analyzing the Bundle Size
+Navigation between pages is handled using React Router without page reloads.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Development Environment
 
-### Making a Progressive Web App
+## Tools Used:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    - Visual Studio Code
 
-### Advanced Configuration
+    - Node.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+    - npm
 
-### Deployment
+    - Web browser (Chrome)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Programming Language & Libraries:
 
-### `npm run build` fails to minify
+    - JavaScript (ES6)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    - React.js
+
+    - React Router DOM
+
+    - YouTube IFrame API
+
+CSS3 for styling
+
+# Useful Websites
+
+- [React Documentation](https://react.dev/learn)
+- [React Router Documentation](https://reactrouter.com/home)
+- [MDN Web Docs](https://developer.mozilla.org/en-US/)
+- [YouTube IFrame API Documentation](https://developers.google.com/youtube/iframe_api_reference)
+
+# Future Work
+
+    - Add backend database integration for persistent storage
+    - Implement user authentication and accounts
+    - Add certificate generation as downloadable PDF
