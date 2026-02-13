@@ -141,7 +141,6 @@ function CourseDetails({ courses, enrollCourse, completeLesson, updateLessonProg
             }
         }
 
-        // If lesson is already completed, we don't need to enable complete button
     };
 
     const onPlayerStateChange = (event) => {
@@ -213,7 +212,7 @@ function CourseDetails({ courses, enrollCourse, completeLesson, updateLessonProg
                 intervalRef.current = null;
             }
 
-            // Update selected index - this will trigger player recreation
+            // Update selected index - this will trigger video player recreation
             setSelectedIndex(newIndex);
         }
     };

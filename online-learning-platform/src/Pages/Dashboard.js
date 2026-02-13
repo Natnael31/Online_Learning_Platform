@@ -1,37 +1,3 @@
-// import React from "react";
-// import { useNavigate } from "react-router-dom";
-
-// function Dashboard({ enrolledCourses, userName }) {
-//     const navigate = useNavigate();
-
-//     return (
-//         <div className="container">
-//             <h1>{userName}'s Dashboard</h1>
-
-//             {enrolledCourses.map(course => {
-//                 const percent = Math.round((course.completedLessons.length / course.lessons.length) * 100);
-
-//                 return (
-//                     <div key={course.id} className="card">
-//                         <h2>{course.title}</h2>
-//                         <p>{percent}% Complete</p>
-
-//                         {percent === 100 && (
-//                             <button onClick={() => navigate(`/certificate/${course.id}`)}>
-//                                 View Certificate
-//                             </button>
-//                         )}
-//                     </div>
-//                 );
-//             })}
-//         </div>
-//     );
-// }
-
-// export default Dashboard;
-
-
-// Dashboard.js
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
