@@ -9,7 +9,7 @@ To run the project locally: - Clone the repository - Open a terminal in the proj
 
 The purpose of the website is to help students learn the concepts very quickly and enable them to produce output within a short period of time.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/Nhz6PteQnZU)
 
 # Web Pages
 
